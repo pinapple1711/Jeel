@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Solutions - Technology Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">TechNova</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#contact" class="btn btn-outline">Get Quote</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">🚀 Innovating the Future</span>
+                <h1 class="hero-title">Transform Your Business with <span class="gradient-text">Cutting-Edge Technology</span></h1>
+                <p class="hero-description">We deliver innovative technology solutions that drive growth, efficiency, and digital transformation for businesses worldwide.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="tech-grid">
+                    <div class="tech-card floating">
+                        <div class="tech-icon">☁️</div>
+                        <span>Cloud Solutions</span>
+                    </div>
+                    <div class="tech-card floating delay-1">
+                        <div class="tech-icon">🤖</div>
+                        <span>AI & ML</span>
+                    </div>
+                    <div class="tech-card floating delay-2">
+                        <div class="tech-icon">🔒</div>
+                        <span>Cybersecurity</span>
+                    </div>
+                    <div class="tech-card floating delay-3">
+                        <div class="tech-icon">📱</div>
+                        <span>Mobile Apps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">Comprehensive Technology Solutions</h2>
+                <p class="section-description">From strategy to implementation, we provide end-to-end technology services tailored to your business needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Computing</h3>
+                    <p>Scalable cloud infrastructure, migration, and management services to optimize your operations.</p>
+                    <ul class="service-features">
+                        <li>AWS & Azure Solutions</li>
+                        <li>Cloud Migration</li>
+                        <li>DevOps & CI/CD</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Harness the power of artificial intelligence to automate processes and gain insights.</p>
+                    <ul class="service-features">
+                        <li>Predictive Analytics</li>
+                        <li>NLP Solutions</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your digital assets with comprehensive security solutions and monitoring.</p>
+                    <ul class="service-features">
+                        <li>Threat Detection</li>
+                        <li>Penetration Testing</li>
+                        <li>Compliance Management</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Custom Software</h3>
+                    <p>Bespoke software development tailored to your unique business requirements.</p>
+                    <ul class="service-features">
+                        <li>Web Applications</li>
+                        <li>Enterprise Software</li>
+                        <li>API Development</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Apps</li>
+                        <li>React Native</li>
+                        <li>App Maintenance</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform raw data into actionable insights with advanced analytics solutions.</p>
+                    <ul class="service-features">
+                        <li>Business Intelligence</li>
+                        <li>Data Visualization</li>
+                        <li>Big Data Processing</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-content">
+                <span class="section-badge">About Us</span>
+                <h2 class="section-title">Driving Innovation Since 2009</h2>
+                <p class="about-text">TechNova Solutions is a leading technology services company dedicated to helping businesses navigate the digital landscape. Our team of expert engineers, designers, and strategists work collaboratively to deliver solutions that exceed expectations.</p>
+                <p class="about-text">We believe in building long-term partnerships with our clients, understanding their unique challenges, and providing tailored solutions that drive measurable results.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>Agile Methodology</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>24/7 Support</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>Certified Experts</span>
+                    </div>
+                    <div class="about-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>Transparent Pricing</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary">Work With Us</a>
+            </div>
+            <div class="about-visual">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Innovation Hub</span>
+                    </div>
+                </div>
+                <div class="experience-badge">
+                    <span class="exp-number">15+</span>
+                    <span class="exp-text">Years of Excellence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Explore some of our recent success stories and see how we've helped businesses transform.</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cloud">Cloud</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="cloud">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">FinTech Platform</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Cloud Migration</span>
+                        <h3>FinTech Cloud Platform</h3>
+                        <p>Migrated legacy banking systems to AWS cloud infrastructure</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">Healthcare AI</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">AI & Machine Learning</span>
+                        <h3>Healthcare Diagnostic AI</h3>
+                        <p>AI-powered diagnostic tool for early disease detection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">E-commerce App</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Mobile Development</span>
+                        <h3>Retail E-commerce App</h3>
+                        <p>Cross-platform mobile app with 1M+ downloads</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">Enterprise Dashboard</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Web Application</span>
+                        <h3>Enterprise Analytics Dashboard</h3>
+                        <p>Real-time business intelligence platform</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">Chatbot System</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">AI & NLP</span>
+                        <h3>Customer Service Chatbot</h3>
+                        <p>Intelligent chatbot reducing support tickets by 60%</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cloud">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">IoT Platform</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">IoT & Cloud</span>
+                        <h3>Smart City IoT Platform</h3>
+                        <p>Connected devices management for urban infrastructure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-description">Don't just take our word for it - hear from some of our satisfied clients.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"TechNova transformed our entire IT infrastructure. Their cloud migration service was seamless, and we've seen a 40% reduction in operational costs."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <span class="author-name">John Davidson</span>
+                            <span class="author-role">CTO, FinanceCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"The AI solution they developed has revolutionized our customer service. Response times improved by 70% and customer satisfaction is at an all-time high."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah Mitchell</span>
+                            <span class="author-role">CEO, RetailHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Professional, knowledgeable, and always available. TechNova's team became an extension of our own company. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <span class="author-name">Michael Roberts</span>
+                            <span class="author-role">Director, HealthTech Inc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Build Something Amazing Together</h2>
+                <p class="contact-description">Ready to start your digital transformation journey? Contact us today for a free consultation.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Address</strong>
+                            <p>123 Innovation Drive, Tech City, TC 10001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>hello@technova.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@company.com">
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" placeholder="Your Company">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Interested In</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service</option>
+                        <option value="cloud">Cloud Computing</option>
+                        <option value="ai">AI & Machine Learning</option>
+                        <option value="security">Cybersecurity</option>
+                        <option value="software">Custom Software</option>
+                        <option value="mobile">Mobile Development</option>
+                        <option value="analytics">Data Analytics</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">TechNova</span>
+                    </a>
+                    <p>Empowering businesses through innovative technology solutions since 2009.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">AI & Machine Learning</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                        <li><a href="#">Custom Software</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechNova Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
